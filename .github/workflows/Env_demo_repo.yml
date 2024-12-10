@@ -13,4 +13,4 @@ jobs:
 
         steps:
         - run: |
-            echo "APP_secret: ${{secrets.APP_SCERET}}"
+            echo "APP_SECRET: ${{ secrets.APP_SECRET }}"
