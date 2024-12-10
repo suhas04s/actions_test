@@ -13,7 +13,7 @@ jobs:
             - uses: actions/upload-artifact@v3
               with:
                 name: file 
-                path: file.
+                path: file.txt
                 
     job-2:
         name: Download Artifacts
