@@ -1,0 +1,20 @@
+name: list of all deafult github vars
+
+on: 
+    workflow_dispatch:
+
+jobs:
+    ubuntu-evn-variables:
+        runs-on: ubuntu-latest
+        steps:
+            - run: env
+    
+    windows-evn-variables:
+        runs-on: windows-latest
+        steps:
+            - run: env
+
+    macos-evn-variables:
+        runs-on: macos-latest
+        steps:
+            - run: env
